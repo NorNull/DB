@@ -6,11 +6,11 @@ var mysql = require('mysql');
 
 var pool = mysql.createPool ({
     connectionLimit: 1000,
-    host: 'http://mysql.hostinger.in.th',
+    host: 'us-cdbr-iron-east-04.cleardb.net',
     //host: '124.121.226.210',
-    user: 'u666729576_sam',
-    passward: 'sam123',
-    database: 'u666729576_unity',
+    user: 'b3a577478b4bfa',
+    passward: '790f0d96',
+    database: 'heroku_8c4f4f56275aa33',
     debug: false
 })
 
